@@ -1,0 +1,155 @@
+@import url(http://awebfont.ir/css?id=1116);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'B Yekan';
+}
+.container{
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+}
+.list{
+    list-style-type: none;
+    display: flex;
+    margin-right: 20px;
+}
+.list li{
+    padding: 10px 20px;
+    color:#999; 
+    font-size: 18px;
+}
+.list li:hover{
+    color: #288ed9;
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+}
+.sabtnam{
+    padding:5px 20px;
+    color: #288ed9;
+}
+.vorod{
+    background-color: #288ed9;
+    padding:5px 20px;
+    color:#fff;
+    border-radius: 30px;
+}
+.header-bottom{
+    display: flex;
+    align-items: center;
+    margin: 20px 0 10px;
+}
+.header-bottom-right{
+    width: 40%;
+}
+.titel{
+    color:#288ed9;
+    margin-bottom: 5px;
+}
+.desc{
+    color:#288ed9;
+    margin-bottom: 15px;
+}
+.info{
+    text-align: justify;
+    line-height: 27px;
+    color: #7e7e7e;
+}
+.header-bottom-left{
+    width: 60%;
+    padding-right: 20px;
+}
+
+.host-list{
+    background: linear-gradient(to bottom,rgba(214,238,255,0) 0,#d6eeff 100%);
+}
+
+.host-list-titel{
+    margin: 100px 0;
+    text-align: center;
+}
+.host-list-iteems{
+    display: flex;
+    margin: 80px 0;
+}
+.iteem{
+    margin: 0 20px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 20px 10px;
+    position: relative;
+}
+.iteem-titel{
+    background-color:#288ed9;
+    width: 140px;
+    text-align: center;
+    border-radius: 30px;
+    padding: 5px;
+    position: absolute;
+    top: -25px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    color: white;
+    
+}
+.matn1{
+    text-align: justify;
+    padding: 20px 5px;
+    color:#585656; 
+}
+
+
+.feature{
+    display: flex;
+    align-items: center;
+    margin: 20px 50px;
+}
+.feature-right{
+    width: 50%;
+}
+.feature-titel{
+    color: #288ed9;
+    margin: 10px 0 30px;
+}
+.feature-desc{
+    text-align: justify;
+    line-height: 27px;
+    color: #7e7e7e;
+}
+.feature-left{
+    width: 50%;
+    padding: 10px 20px;
+}
+.feature:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+
+.footer{
+    text-align: center;
+    padding: 50px 0;
+    color: #999;
+}
+.icon i{
+    font-size: 25px;
+    padding: 10px;
+    
+}
